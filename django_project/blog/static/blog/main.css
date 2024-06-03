@@ -18,11 +18,22 @@ ul {
 }
 
 .bg-steel {
-  background-color: #5f788a;
+  background-color: #1ca1ff;
 }
 
+.site-header {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.site-header .navbar-nav .nav-link img {
+  width: 40px;
+  height: 40px;
+}
 .site-header .navbar-nav .nav-link {
   color: #cbd5db;
+  display: flex;
+  align-items: center;
 }
 
 .site-header .navbar-nav .nav-link:hover {
@@ -37,7 +48,7 @@ ul {
   background: #ffffff;
   padding: 10px 20px;
   border: 1px solid #dddddd;
-  border-radius: 3px;
+  border-radius: 10px;
   margin-bottom: 20px;
 }
 
@@ -52,6 +63,10 @@ a.article-title:hover {
 
 .article-content {
   white-space: pre-line;
+  height: auto;
+  background-color: whitesmoke;
+  padding: 5px;
+  border-radius: 10px;
 }
 
 .article-img {
