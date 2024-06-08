@@ -17,6 +17,20 @@ ul {
   margin: 0;
 }
 
+.create {
+  text-decoration: none;
+  border: 2px solid #cfcece;
+  color: #1cfffb;
+  border-radius: 10px;
+  height: 40px;
+}
+.create:hover {
+  border: 2px solid #fff;
+}
+.create i {
+  font-size: 34px;
+}
+
 .bg-steel {
   background-color: #1ca0ffc2;
 }
@@ -34,6 +48,7 @@ ul {
   color: #cbd5db;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .site-header .navbar-nav .nav-link:hover {
